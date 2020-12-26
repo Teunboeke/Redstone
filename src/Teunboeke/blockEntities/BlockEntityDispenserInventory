@@ -3,29 +3,20 @@
 namespace Teunboeke\blockEntities;
 
 use pocketmine\block\Block;
-
 use pocketmine\entity\Entity;
-
 use pocketmine\inventory\InventoryHolder;
-
 use pocketmine\item\Item;
 use pocketmine\item\ProjectileItem;
-
 use pocketmine\math\Vector3;
-
 use pocketmine\nbt\tag\CompoundTag;
-
 use pocketmine\network\mcpe\protocol\LevelEventPacket;
 use pocketmine\network\mcpe\protocol\LevelSoundEventPacket;
-
 use pocketmine\tile\Container;
 use pocketmine\tile\ContainerTrait;
 use pocketmine\tile\Nameable;
 use pocketmine\tile\NameableTrait;
 use pocketmine\tile\Tile;
 use pocketmine\tile\Spawnable;
-
-
 use Teunboeke\inventories\DispenserInventory;
 
 class BlockEntityDispenser extends Spawnable implements InventoryHolder, Container, Nameable {
