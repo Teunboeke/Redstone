@@ -414,3 +414,4 @@ class BlockEntityCommandBlock extends Spawnable implements InventoryHolder, Cont
     public function getEffectivePermissions() : array{
         return $this->permissions;
     }
+}
