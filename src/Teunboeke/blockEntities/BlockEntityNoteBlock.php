@@ -4,7 +4,7 @@ namespace Teunboeke\blockEntities;
 
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\tile\Tile;
-use redstone\utils\Facing;
+use Teunboeke\utils\Facing;
 
 class BlockEntityNoteBlock extends Tile {
 
