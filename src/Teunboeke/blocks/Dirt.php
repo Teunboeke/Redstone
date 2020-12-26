@@ -1,1 +1,7 @@
-namespace Wertzui123\Netherite\block;
+<?php 
+
+namespace Teunboeke Teunboeke\blocks;
+
+use pocketmine\block\Block;
+use pocketmine\block\BlockFactory;
+use pocketmine\item\Hoe;
