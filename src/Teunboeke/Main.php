@@ -39,26 +39,26 @@ use Teunboeke\blocks\BlockObserver;
 use Teunboeke\blocks\BlockPiston;
 use Teunboeke\blocks\BlockPressurePlateStone;
 use Teunboeke\blocks\BlockPressurePlateWooden;
-use redstone\blocks\BlockRedstone;
-use redstone\blocks\BlockRedstoneComparatorPowered;
-use redstone\blocks\BlockRedstoneComparatorUnpowered;
-use redstone\blocks\BlockRedstoneLamp;
-use redstone\blocks\BlockRedstoneLampLit;
-use redstone\blocks\BlockRedstoneRepeaterPowered;
-use redstone\blocks\BlockRedstoneRepeaterUnpowered;
-use redstone\blocks\BlockRedstoneTorch;
-use redstone\blocks\BlockRedstoneTorchUnlit;
-use redstone\blocks\BlockRedstoneWire;
-use redstone\blocks\BlockTNT;
-use redstone\blocks\BlockTrapdoor;
-use redstone\blocks\BlockWeightedPressurePlateLight;
-use redstone\blocks\BlockWeightedPressurePlateHeavy;
-use redstone\blocks\BlockWoodenDoor;
+use Teunboeke\blocks\BlockRedstone;
+use Teunboeke\blocks\BlockRedstoneComparatorPowered;
+use Teunboeke\blocks\BlockRedstoneComparatorUnpowered;
+use Teunboeke\blocks\BlockRedstoneLamp;
+use Teunboeke\blocks\BlockRedstoneLampLit;
+use Teunboeke\blocks\BlockRedstoneRepeaterPowered;
+use Teunboeke\blocks\BlockRedstoneRepeaterUnpowered;
+use Teunboeke\blocks\BlockRedstoneTorch;
+use Teunboeke\blocks\BlockRedstoneTorchUnlit;
+use Teunboeke\blocks\BlockRedstoneWire;
+use Teunboeke\blocks\BlockTNT;
+use Teunboeke\blocks\BlockTrapdoor;
+use Teunboeke\blocks\BlockWeightedPressurePlateLight;
+use Teunboeke\blocks\BlockWeightedPressurePlateHeavy;
+use Teunboeke\blocks\BlockWoodenDoor;
 
-use redstone\listeners\EventListener;
-use redstone\listeners\ScheduledBlockUpdateListener;
+use Teunboeke\listeners\EventListener;
+use Teunboeke\listeners\ScheduledBlockUpdateListener;
 
-use redstone\utils\ScheduledBlockUpdateLoader;
+use Teunboeke\utils\ScheduledBlockUpdateLoader;
 
 class Main extends PluginBase {
 
