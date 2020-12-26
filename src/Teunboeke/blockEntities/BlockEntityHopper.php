@@ -16,12 +16,9 @@ use pocketmine\tile\Spawnable;
 
 use pocketmine\math\AxisAlignedBB;
 
-
-use redstone\blocks\BlockHopper;
-
-use redstone\inventories\HopperInventory;
-
-use redstone\utils\Facing;
+use Teunboeke\blocks\BlockHopper;
+use Teunboeke\inventories\HopperInventory;
+use Teunboeke\utils\Facing;
 
 class BlockEntityHopper extends Spawnable implements InventoryHolder, Container, Nameable {
     use NameableTrait {
