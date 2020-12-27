@@ -34,9 +34,9 @@ use pocketmine\timings\Timings;
 use pocketmine\utils\TextFormat;
 
 
-use redstone\blocks\BlockCommand;
-use redstone\blocks\BlockCommandChain;
-use redstone\blocks\BlockCommandRepeating;
+use Teunboeke\blocks\BlockCommand;
+use Teunboeke\blocks\BlockCommandChain;
+use Teunboeke\blocks\BlockCommandRepeating;
 
 use Teunboeke\inventories\CommandInventory;
 
