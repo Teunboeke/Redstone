@@ -1,6 +1,6 @@
 <?php
 
-namespace Teunboeke\Netherite\Item\Tool;
+namespace Teunboeke\Item\Hoe;
 
 use pocketmine\block\Block;
 use pocketmine\block\BlockToolType;
