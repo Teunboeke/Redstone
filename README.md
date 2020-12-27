@@ -1,3 +1,4 @@
 # Redstone
 
-[ X ] `nether rite armor & tools`
+[x] `Nether rite Armor`
+[x] `Nether rite Tools`
