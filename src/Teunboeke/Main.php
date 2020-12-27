@@ -55,8 +55,8 @@ use Teunboeke\blocks\BlockWeightedPressurePlateLight;
 use Teunboeke\blocks\BlockWeightedPressurePlateHeavy;
 use Teunboeke\blocks\BlockWoodenDoor;
 
-use Teunboeke\listeners\EventListener;
-use Teunboeke\listeners\ScheduledBlockUpdateListener;
+use Teunboeke\Listeners\EventListener;
+use Teunboeke\Listeners\ScheduledBlockUpdateListener;
 
 use Teunboeke\utils\ScheduledBlockUpdateLoader;
 
